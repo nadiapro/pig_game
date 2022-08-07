@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(207, 37, 114);
+    background: linear-gradient(252deg, rgba(207, 37, 114, 1) 20%, rgba(203, 81, 186, 1) 61%, rgba(171, 48, 158, 1) 92%);
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#firstp,
+#secondp {
+    background-color: rgb(230, 178, 223);
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5% 0 0 5%;
+}
+
+#secondp {
+    border-radius: 0 5% 5% 0;
+}
+
+#top1,
+#top2 {
+    width: 40%;
+    height: 40%;
+    text-align: center;
+}
+
+#current1,
+#current2 {
+    background-color: rgb(224, 60, 109);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 25%;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    /* padding: 6%; */
+}
+
+#but {
+    display: flex;
+    width: 30%;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 35%;
+}
+
+#newgame {
+    padding: 5% 10%;
+    width: 70%;
+    font-size: 24px;
+    border-radius: 45%;
+    border: none;
+}
+
+img {
+    width: 60%;
+    height: 40%;
+}
+
+#rh {
+    display: flex;
+    width: 70%;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3% 10%;
+}
+
+#roll {
+    padding: 3% 10%;
+    font-size: 20px;
+}
+
+#hold {
+    padding: 3% 10%;
+    font-size: 20px;
+}
+
+.active {
+    background-color: rgb(146, 76, 115)!important;
+}
